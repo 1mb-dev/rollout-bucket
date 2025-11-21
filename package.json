@@ -1,6 +1,6 @@
 {
   "name": "rollout-bucket",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Deterministic percentage-based bucketing for feature flags and A/B tests",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -59,10 +59,10 @@
   },
   "type": "module",
   "dependencies": {
-    "murmur-hash": "^2.0.0",
-    "typescript": "^5.9.3"
+    "murmur-hash": "^2.0.0"
   },
   "devDependencies": {
+    "typescript": "^5.9.3",
     "@types/node": "^24.10.1",
     "@typescript-eslint/eslint-plugin": "^8.47.0",
     "@typescript-eslint/parser": "^8.47.0",

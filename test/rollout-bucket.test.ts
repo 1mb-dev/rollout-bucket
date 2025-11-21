@@ -36,8 +36,7 @@ describe('RolloutBucket', () => {
       const bucket2 = rollout.getBucket('feature-b', identifier);
       const bucket3 = rollout.getBucket('feature-c', identifier);
 
-      // With proper hashing, buckets should differ for different features
-      // (extremely unlikely to all be the same with murmur hash)
+      // Different features should produce different buckets (hash collision extremely unlikely)
       const allSame = bucket1 === bucket2 && bucket2 === bucket3;
       expect(allSame).toBe(false);
     });
