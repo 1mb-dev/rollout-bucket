@@ -45,6 +45,17 @@
   ],
   "author": "Vinayak Mishra <viks@vnykmshr.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnykmshr/rollout-bucket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vnykmshr/rollout-bucket/issues"
+  },
+  "homepage": "https://github.com/vnykmshr/rollout-bucket#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "type": "module",
   "dependencies": {
     "murmur-hash": "^2.0.0",
