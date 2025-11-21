@@ -299,6 +299,51 @@ The library is tested with chi-square goodness-of-fit tests to verify uniform di
 - You need centralized feature flag management
 - You want built-in analytics and experiment tracking
 
+## Development
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/vnykmshr/rollout-bucket.git
+cd rollout-bucket
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Run tests with coverage
+npm run test:coverage
+
+# Build the package
+npm run build
+
+# Lint code
+npm run lint
+
+# Format code
+npm run format
+```
+
+### Project Scripts
+
+- `npm test` - Run test suite
+- `npm run test:watch` - Run tests in watch mode
+- `npm run test:coverage` - Generate coverage report
+- `npm run build` - Build ESM and CJS distributions
+- `npm run clean` - Remove build artifacts
+- `npm run lint` - Check code style
+- `npm run format` - Auto-fix code formatting
+
+### Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed contribution guidelines.
+
 ## Performance
 
 - **Hash computation**: ~50-100ns per call (Node.js v20)
@@ -308,10 +353,6 @@ The library is tested with chi-square goodness-of-fit tests to verify uniform di
 ## License
 
 MIT © vnykmshr
-
-## Contributing
-
-Issues and pull requests are welcome on [GitHub](https://github.com/vnykmshr/rollout-bucket).
 
 ## Changelog
 
