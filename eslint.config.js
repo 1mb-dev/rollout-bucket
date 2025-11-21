@@ -1,5 +1,6 @@
 import tseslint from '@typescript-eslint/eslint-plugin';
 import tsparser from '@typescript-eslint/parser';
+import prettierConfig from 'eslint-config-prettier';
 
 export default [
   {
@@ -18,6 +19,9 @@ export default [
     rules: {
       // TypeScript recommended rules
       ...tseslint.configs.recommended.rules,
+
+      // Disable formatting rules that conflict with Prettier
+      ...prettierConfig.rules,
 
       // Additional strict rules
       '@typescript-eslint/no-explicit-any': 'error',

@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test coverage
+coverage/
+
+# Dev-only tracker
+todos/
+
+# Lock files
+package-lock.json
+
+# Logs
+*.log
