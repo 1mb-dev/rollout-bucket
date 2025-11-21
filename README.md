@@ -307,7 +307,7 @@ The library is tested with chi-square goodness-of-fit tests to verify uniform di
 
 ## License
 
-MIT © Vinayak Mishra
+MIT © vnykmshr
 
 ## Contributing
 
