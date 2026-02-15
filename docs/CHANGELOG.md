@@ -30,4 +30,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Lightweight**: < 5KB minified bundle
 - **Type-safe**: Full TypeScript support with generics
 
-[1.0.0]: https://github.com/vnykmshr/rollout-bucket/releases/tag/v1.0.0
+[1.0.0]: https://github.com/1mb-dev/rollout-bucket/releases/tag/v1.0.0

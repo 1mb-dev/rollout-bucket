@@ -9,7 +9,7 @@ updates:
       time: "09:00"
     open-pull-requests-limit: 5
     assignees:
-      - "vnykmshr"
+      - "1mb-dev"
     commit-message:
       prefix: "chore(deps)"
       include: "scope"

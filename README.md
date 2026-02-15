@@ -3,8 +3,8 @@
 Deterministic percentage-based bucketing for feature flags and A/B testing.
 
 [![npm version](https://img.shields.io/npm/v/rollout-bucket.svg)](https://www.npmjs.com/package/rollout-bucket)
-[![CI](https://github.com/vnykmshr/rollout-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/vnykmshr/rollout-bucket/actions)
-[![License](https://img.shields.io/npm/l/rollout-bucket.svg)](https://github.com/vnykmshr/rollout-bucket/blob/main/LICENSE)
+[![CI](https://github.com/1mb-dev/rollout-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/1mb-dev/rollout-bucket/actions)
+[![License](https://img.shields.io/npm/l/rollout-bucket.svg)](https://github.com/1mb-dev/rollout-bucket/blob/main/LICENSE)
 
 ## Overview
 
@@ -166,7 +166,7 @@ Use when you need deterministic percentage-based rollouts without external depen
 
 ## License
 
-MIT © vnykmshr
+MIT © 1mb-dev
 
 ## Contributing
 

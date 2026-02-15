@@ -44,16 +44,16 @@
     "experimentation",
     "canary"
   ],
-  "author": "vnykmshr",
+  "author": "1mb-dev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vnykmshr/rollout-bucket.git"
+    "url": "git+https://github.com/1mb-dev/rollout-bucket.git"
   },
   "bugs": {
-    "url": "https://github.com/vnykmshr/rollout-bucket/issues"
+    "url": "https://github.com/1mb-dev/rollout-bucket/issues"
   },
-  "homepage": "https://github.com/vnykmshr/rollout-bucket#readme",
+  "homepage": "https://github.com/1mb-dev/rollout-bucket#readme",
   "engines": {
     "node": ">=18.0.0"
   },

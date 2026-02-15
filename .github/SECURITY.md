@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in rollout-bucket, please report it via [GitHub Security Advisories](https://github.com/vnykmshr/rollout-bucket/security/advisories/new).
+If you discover a security vulnerability in rollout-bucket, please report it via [GitHub Security Advisories](https://github.com/1mb-dev/rollout-bucket/security/advisories/new).
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 

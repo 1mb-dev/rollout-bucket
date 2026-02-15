@@ -149,8 +149,8 @@ rollout-bucket/
 ## Questions?
 
 - 📖 Check the [README](../README.md) for API documentation
-- 🐛 [Open an issue](https://github.com/vnykmshr/rollout-bucket/issues) for bugs
-- 💡 [Start a discussion](https://github.com/vnykmshr/rollout-bucket/discussions) for questions
+- 🐛 [Open an issue](https://github.com/1mb-dev/rollout-bucket/issues) for bugs
+- 💡 [Start a discussion](https://github.com/1mb-dev/rollout-bucket/discussions) for questions
 
 ## License
 
