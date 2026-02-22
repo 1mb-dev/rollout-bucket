@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "typescript": "^5.9.3",
-    "@types/node": "^24.10.1",
+    "@types/node": "^25.2.3",
     "@typescript-eslint/eslint-plugin": "^8.47.0",
     "@typescript-eslint/parser": "^8.47.0",
     "@vitest/coverage-v8": "^4.0.12",
