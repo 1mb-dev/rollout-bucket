@@ -18,6 +18,20 @@ Deterministic percentage-based bucketing for feature flags and A/B testing.
 - Dual module (ESM + CommonJS)
 - Lightweight (< 5KB minified)
 
+## When to Use This
+
+Use rollout-bucket when you need deterministic percentage-based bucketing without a feature flag service.
+
+**Choose rollout-bucket over [LaunchDarkly](https://launchdarkly.com) / [Unleash](https://www.getunleash.io) when:**
+- You want stateless, client-side bucketing with no external service or API calls
+- You need deterministic assignment (same user always gets the same bucket, no database needed)
+- You're building a lightweight rollout system and don't need targeting rules, analytics, or a management UI
+
+**Choose a feature flag service instead when:**
+- You need user targeting by attributes (country, plan, segment)
+- You need a management dashboard for non-engineers to toggle features
+- You need event tracking and experiment analytics
+
 ## Installation
 
 ```bash
