@@ -55,7 +55,7 @@
   },
   "homepage": "https://github.com/1mb-dev/rollout-bucket#readme",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22"
   },
   "type": "module",
   "dependencies": {

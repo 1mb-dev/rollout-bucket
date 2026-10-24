@@ -17,6 +17,11 @@ updates:
       - "dependencies"
     # Group minor and patch updates together to reduce PR noise
     groups:
+      # vitest and @vitest/* pin each other's exact version as peers; split PRs break each other.
+      vitest:
+        patterns:
+          - "vitest"
+          - "@vitest/*"
       development-dependencies:
         dependency-type: "development"
         update-types:
