@@ -23,6 +23,10 @@ updates:
           - "vitest"
           - "@vitest/*"
       development-dependencies:
+        # Dependabot ranks this group above 'vitest' for @vitest/* and splits them out again.
+        exclude-patterns:
+          - "vitest"
+          - "@vitest/*"
         dependency-type: "development"
         update-types:
           - "minor"
